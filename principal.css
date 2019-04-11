@@ -1,0 +1,187 @@
+.bloque_principal{
+  width: 90%;
+  margin: auto;
+  height: 90%;
+    text-align: center;
+  display: inline-block;
+  }
+
+  .sec_section{
+    padding:20px;
+    text-align: center;
+    width: 1000px;
+  }
+
+  .ntortas{
+    width: 600px;
+    height: 510px;
+    border: 5px solid #cccccc;
+    text-align: left;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  }
+
+  .nhistoria{
+    width: 300px;
+    height: 250px;
+    border: 5px solid #cccccc;
+      text-align: left;
+      float: left;
+      margin-left: 10px;
+      margin-right: 10px;
+  }
+
+  .Cuadro3{
+    width: 300px;
+    height: 250px;
+    border: 5px solid #cccccc;
+      text-align: left;
+      float: left;
+      margin-left: 10px;
+      margin-right: 10px;
+  }
+
+h2{
+  color:white;
+}
+.ntortas h2{
+background-color: red;
+}
+
+.nhistoria h2{
+background-color: blue;
+}
+
+.Cuadro3 h2{
+background-color: green;
+}
+
+body{
+  background-color: rgba(255, 0, 0, 0.3);
+  background-position: top center;
+  }
+
+p{
+  color:green;
+}
+
+.nhistoria p{
+  color: blue;
+  line-height: 1.5em;
+  letter-spacing: 2px;
+}
+
+.Cuadro3 p{
+  color: green;
+  line-height: 1.5em;
+  letter-spacing: 2px;
+}
+
+ul {
+  list-style: upper-latin;
+}
+
+h1{
+  font-family: 'Lato', sans-serif;
+  background-color: #FF7F50;
+  }
+
+/*  .transiciones:hover{
+  transform: rotateY(150deg);
+  }
+*/
+  h1:hover{
+  transform: rotateY(150deg);
+  }
+
+legend{
+  font-family: 'Times New Roman', sans-serif;
+  background-color: #FFD700;
+}
+
+  #menu {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+  }
+
+  ul, ol {
+    list-style:none;
+  }
+
+
+  .nav{
+    overflow: hidden;
+    background-color: red;
+    bottom: initial;
+    width: 700px;
+  }
+
+  .nav > li {
+    float:left;
+  }
+
+  .nav li a {
+    background-color:red;
+    color:#fff;
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+  }
+
+  .nav li a:hover {
+    background-color:yellow;
+  }
+
+  .nav li ul {
+    display:none;
+    position:absolute;
+    width:150px;
+  }
+
+  .nav li:hover  ul {
+    display:block;
+  }
+
+  .nav li ul li {
+    position:relative;
+  }
+
+
+.img1{
+background-position: center;
+background-repeat: no-repeat;
+width: 600;
+height: 420;
+}
+
+@keyframes mi_primera_animacion {
+  30%{
+   transform: rotate(90deg);
+  }
+  50%{
+   transform: rotate(180deg);
+  }
+  100%{
+    transform: translate(300px);
+  }
+}
+
+.letra1:hover{
+  background-color:yellow;
+  transform: scale(1,2);
+}
+
+.animacion{
+  height: 50px;
+  width: 50px;
+}
+
+.animacion:hover{
+  animation-name: mi_primera_animacion;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-duration: 2s;
+  animation-delay: 0s;
+  animation-direction: alternate;
+}
